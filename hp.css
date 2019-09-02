@@ -3,16 +3,7 @@ body{
     margin: 0;
     text-align: center;
 }
-ul{
-    padding: 0;
 
-}
-li{
-    background-color: brown;
-    color: rgb(211, 197, 188);
-    list-style: none;
-    border-bottom: 1px solid white;
-}
 .io.img{
     width: 280px;
     height: 500px;
@@ -25,22 +16,26 @@ li{
 }
 @media only screen  and (min-width:290px) and (max-width:700px){
     ul{
-        background: rgb(26, 119, 26);
-        text-align: center;
-     
+        padding: 0;
+    
     }
     li{
-        display: block;
+        background-color: brown;
+        color: rgb(211, 197, 188);
+        list-style: none;
+        border-bottom: 1px solid white;
     }
 }
 
-@media only screen and (min-width:800px) and (max-width:700px){
+@media only screen and (min-width:700px) and (max-width:900px){
     ul{
-        background: green;
-        text-align: center; 
+        padding: 0;
+    
     }
     li{
-
-      display: block;
+        background-color: green;
+        color: rgb(211, 197, 188);
+        list-style: none;
+        border-bottom: 1px solid white;
     }
 }
